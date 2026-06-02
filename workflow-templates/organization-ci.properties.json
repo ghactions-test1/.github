@@ -1,0 +1,17 @@
+{
+    "name": <NAME>, # ⬅️ Required. Fill in with any name
+    "description": <DESCRIPTION>, # ⬅️ Required. 
+    "iconName": "example-icon", # ⬅️ SVG file name (without extension!) that is in the workflow directory
+    # You can use a value from one of 3 categories:
+    # - general - https://github.com/actions/starter-workflows/blob/main/README.md#categories
+    # - languages - https://github.com/github-linguist/linguist/blob/master/lib/linguist/languages.yml
+    # - tech stack - https://github.com/github-starter-workflows/repo-analysis-partner/blob/main/tech_stacks.yml
+    "categories": [ 
+        "Go"
+    ],
+    "filePatterns": [ 
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
