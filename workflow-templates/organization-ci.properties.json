@@ -1,6 +1,6 @@
 {
-    "name": <NAME>,
-    "description": <DESCRIPTION>, 
+    "name": "Organization CI",
+    "description": "Bla bla", 
     "iconName": "example-icon", 
     "categories": [ 
         "Go"
